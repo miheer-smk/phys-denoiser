@@ -1,5 +1,15 @@
 # PhysDenoiser — Physics-Informed Image Denoiser from Scratch
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-4.x-5C3EE8?style=flat&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat" />
+  <img src="https://img.shields.io/badge/From_Scratch-no_pretrained-brightgreen?style=flat" />
+  <img src="https://img.shields.io/badge/Best_PSNR-22.45_dB-orange?style=flat" />
+</p>
+
 A lightweight image denoiser built entirely from scratch — no pretrained weights, no API calls. Trained on **physically realistic noise** that models how camera sensors actually work, not just naive Gaussian blur.
 
 ## Why This Exists
